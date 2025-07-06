@@ -1,0 +1,5 @@
+install:
+- pip3 install flask
+build: off
+test_script:
+- py -3 ./flaskapp/some_app.py
