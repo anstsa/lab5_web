@@ -3,7 +3,6 @@ install:
 - chmod +x ./flaskapp/st.sh
 - pip3 install flask
 - pip3 install gunicorn
-- pip3 install micropython-fcntl
 test_script:
 - cd flaskapp
 - st.sh
